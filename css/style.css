@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* margin-top: %; */
+background-image: url("../img/cool-polygon-wallpaper-1-1235365822");
+background-size: cover;
+/* overflow-y: hidden;
+overflow: hidden; */
+height: 100%;
+    /* border: 10px double rgb(155, 255, 6) ; */
+
+}
+
+h1{
+    transform: translate(25vw,5vh);
+    border-left: 10px chartreuse solid;
+    border-right: 10px chartreuse solid;
+    color: chartreuse;
+    width:50vw;
+    padding: 3%;
+    font-size: 3vw;
+    height: auto;
+    margin-top: 5vw;
+    text-align: center;
+    /* transform: translate(50%); */
+    }
+
+.page{
+    color: chartreuse;
+    width: 100vw;
+    height: auto;
+    font-weight: bold;
+    display:block;
+  
+}
+.page img{
+    width: 35vw;
+    margin-left: 5vw;
+}
+.page p{
+    width: 30vw;
+    transform: translate(55vw,-40vw);
+    font-size: 3vw;
+}
+
+button{
+    color:chartreuse;
+    grid-area: btn;
+    background:none;
+    border: 6px chartreuse double;
+    width:35vw ;
+    height: 12vw;
+    font-size: 3.5vw;
+    margin: -10% 35% auto;
+    border-radius: 30%;
+    transition: 1s;
+
+
+
+}
+button:hover{
+
+    transform: skew(1.1);
+    transform: scale(1.1);
+    transform: translate(1.9);
+    letter-spacing: 8px;
+
+}
+h2{
+    border-left: 10px chartreuse solid;
+    border-right: 10px chartreuse solid;
+    color: chartreuse;
+    /* background-color: black; */
+    width:50vw;
+    padding: 3%;
+    font-size: 3vw;
+    height: auto;
+    margin-top: 5vw;
+    /* margin-bottom: 5vw; */
+    text-align: center;
+    transform: translate(25vw,-10vh);
+
+}    
+
